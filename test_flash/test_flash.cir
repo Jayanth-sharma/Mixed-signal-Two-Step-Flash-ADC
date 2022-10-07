@@ -1,0 +1,18 @@
+* C:\Users\PawaN\eSim-Workspace\test_flash\test_flash.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/7/2022 10:48:44 AM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v2  vin GND sine		
+v1  vref GND DC		
+U2  vin plot_v1		
+U1  vref plot_v1		
+U4  b0 plot_v1		
+U5  b1 plot_v1		
+X1  vin vref b0 b1 flash_new		
+scmode1  SKY130mode		
+
+.end

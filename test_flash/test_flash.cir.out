@@ -1,0 +1,31 @@
+* c:\users\pawan\esim-workspace\test_flash\test_flash.cir
+
+.include Flash_adc.sub
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+v2  vin gnd sine(0 3.3 500000 0 0)
+v1 vref gnd  dc 4
+* u2  vin plot_v1
+* u1  vref plot_v1
+* u4  b0 plot_v1
+* u5  b1 plot_v1
+x1 vin vref b0 b1 Flash_adc
+* s c m o d e
+.tran 1e-06 50e-06 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(vin)
+plot v(vref)
+plot v(b0)
+plot v(b1)
+.endc
+.end
