@@ -1,0 +1,30 @@
+* c:\users\pawan\esim-workspace\compare_test\compare_test.cir
+
+.include avsdcmp_3v3_sky130.sub
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+x1 net-_x1-pad1_ net-_x1-pad1_ vin vref vout gnd avsdcmp_3v3_sky130
+v1 vref gnd  dc 2
+v2  vin gnd sine(0 3.3 50 0 0)
+v3 net-_x1-pad1_ gnd  dc 3.3
+* u3  vout plot_v1
+* u2  vin plot_v1
+* u1  vref plot_v1
+* s c m o d e
+.tran 1e-03 40e-03 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(vout)
+plot v(vin)
+plot v(vref)
+.endc
+.end
