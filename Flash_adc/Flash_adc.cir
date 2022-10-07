@@ -1,0 +1,22 @@
+* C:\FOSSEE\eSim\library\SubcircuitLibrary\Flash_adc\Flash_adc.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/7/2022 1:58:10 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC1  Net-_SC1-Pad1_ Net-_SC1-Pad2_ Net-_SC1-Pad2_ sky130_fd_pr__res_generic_pd		
+SC2  Net-_SC2-Pad1_ Net-_SC1-Pad1_ Net-_SC1-Pad1_ sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC3-Pad1_ Net-_SC2-Pad1_ Net-_SC2-Pad1_ sky130_fd_pr__res_generic_pd		
+SC4  GND Net-_SC3-Pad1_ Net-_SC3-Pad1_ sky130_fd_pr__res_generic_pd		
+U3  Net-_U3-Pad1_ Net-_U3-Pad2_ Net-_U3-Pad3_ Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ adc_bridge_3		
+U1  Net-_U1-Pad1_ Net-_SC1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ PORT		
+v1  Net-_X1-Pad1_ GND DC		
+X1  Net-_X1-Pad1_ Net-_X1-Pad1_ Net-_X1-Pad1_ Net-_SC1-Pad1_ Net-_U3-Pad1_ GND avsdcmp_3v3_sky130		
+X2  Net-_X1-Pad1_ Net-_X1-Pad1_ Net-_U1-Pad1_ Net-_SC2-Pad1_ Net-_U3-Pad2_ GND avsdcmp_3v3_sky130		
+X3  Net-_X1-Pad1_ Net-_X1-Pad1_ Net-_U1-Pad1_ Net-_SC3-Pad1_ Net-_U3-Pad3_ GND avsdcmp_3v3_sky130		
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ jayanth_flash_dec		
+U4  Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U1-Pad4_ Net-_U1-Pad3_ dac_bridge_2		
+
+.end
