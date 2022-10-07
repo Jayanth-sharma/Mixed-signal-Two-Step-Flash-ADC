@@ -1,0 +1,22 @@
+* C:\Users\PawaN\eSim-Workspace\sub_residue_amp\sub_residue_amp.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/7/2022 8:57:18 AM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_X1-Pad1_ Net-_X1-Pad2_ Net-_SC1-Pad2_ Net-_SC2-Pad2_ Vout GND avsd_opamp		
+v2  Vin GND sine		
+v1  V2 GND DC		
+v4  Net-_X1-Pad1_ GND DC		
+v3  GND Net-_X1-Pad2_ DC		
+SC1  V2 Net-_SC1-Pad2_ V2 sky130_fd_pr__res_generic_pd		
+SC2  Vin Net-_SC2-Pad2_ Vin sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC1-Pad2_ Vout Net-_SC1-Pad2_ sky130_fd_pr__res_generic_pd		
+U3  Vout plot_v1		
+U1  V2 plot_v1		
+U2  Vin plot_v1		
+scmode1  SKY130mode		
+
+.end
