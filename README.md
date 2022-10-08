@@ -1,12 +1,30 @@
 # Mixed-signal-Two-Step-Flash-ADC
 This circuit is a part of Mixed Signal SOC design.
+# **INDEX**
+- [Abstract]()<br/>
+- [Reference Circuit]()<br/>
+- [Reference Waveform]()<br/>
+- [Circuit Details]()<br/>
+- [Truth Tables]()<br/>
+- [Softwares Used]()<br/>
+- [Circuits on eSim]()<br/>
+   -[Comparator]()<br/>
+- [Verilog file]()<br/>
+- [Makerchip]()<br/>
+- [Netlists]()<br/>
+- [Ngspice Plots]()<br/>
+- [Steps to run generate NgVeri Model]()<br/>
+- [Steps to run this project]()<br/>
+- [Acknowlegdements]()<br/>
+- [References]()<br/>
+
 ## Abstract<br />
   Flash or parallel converter have the Highest Speed of any Type of ADC.As they use one comaparator per quantization level(2^N-1) and 2^N resistors.The obvious 
   of this Converter is the speed with which one conversion can take place which is Trades High speed with area Counterbalanced by Doubling the area with each bit 
   increased resolution.For example,an 8-bit Converter requires 255 comparators wheras a 9-bit ADC requires 511.Flash converters have traditionally been limited to
   6 or 8 bits resolution with the conversion rates of 10-40Ms/s.The disadvantages of flash ADC are the area and power requirements of the 2^N-1 comparators.
   So,To achive High resolutions with Lower power consumpution Two-step ADCs,pipelined ADCs are introduced to the Flash ADC archietecture.<br />
-## Refrence Circuit:
+## Reference Circuit:
    
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/Two_step_ADC_block_diagram.png">
 
@@ -354,7 +372,7 @@ endmodule
 # Steps to run this project
   1.Open a new terminal<br/>
   2.Clone this project using the following command:<br/>
-   `git clone `<br/>
+   `git clone https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC.git`<br/>
   3.Change directory:<br/>
     `cd eSim_project_files/two_step_adc`<br/>
   4.Run ngspice:<br/>
