@@ -48,7 +48,14 @@ This circuit is a part of Mixed Signal SOC design.
  4.The second ADC produced The least Significant bits through a flash Conversion.<br/>
 
 ### Truth Table
-    
+ -  
+ - 2 bit Flash ADC:
+    | input Voltage      |    C3C2C1     |   b1b0     |
+    | -------------      | ------------- |------------|
+    | 0<Vin<Vref/4       |     000       |    00      |
+    | Vref/4<Vin<Vref/2  |     001       |    01      |
+    | Verf/2<Vin<Vref    |     011       |    10      |
+    | Vin<Vref           |     111       |    11      |
 ## Softwares Used
 ### eSim
  - It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice    and KiCAD.<br/>
