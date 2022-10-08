@@ -87,224 +87,231 @@ endmodule
 ##  2 bit Flash decoder:
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/makerchip.png">
 ```
-  \TLV_version 1d: tl-x.org
-  \SV
-  /* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/   /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off     SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /*     verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/     /* verilator lint_off    	BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/  /* verilator lint_off NULLPORT*/  /* verilator lint_off EOFNEWLINE*/  /* verilator lint_off   WIDTHCONCAT*/  /* 	verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /* verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator     lint_off 		INITIALDLY*/   
+     \TLV_version 1d: tl-x.org
+     \SV
+    
 
-  //Your Verilog/System Verilog Code Starts Here:
-  module jayanth_flash_dec(input c1,c2,c3,output b0,b1
-    );
+     //Your Verilog/System Verilog Code Starts Here:
+     module jayanth_flash_dec(input c1,c2,c3,output b0,b1
+      );
  
-  wire p1;
-  xnor(p1,c3,c2);
-  and(b0,p1,c1); 
-  and(b1,c1,c2);
- endmodule
+     wire p1;
+     xnor(p1,c3,c2);
+     and(b0,p1,c1); 
+     and(b1,c1,c2);
+     endmodule
 
- //Top Module Code Starts here:
-	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+     //Top Module Code Starts here:
+ 	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
 		logic  c1;//input
 		logic  c2;//input
 		logic  c3;//input
 		logic  b0;//output
 		logic  b1;//output
- //The $random() can be replaced if user wants to assign values
+      //The $random() can be replaced if user wants to assign values
 		assign c1 = $random();
 		assign c2 = $random();
 		assign c3 = $random();
 		jayanth_flash_dec jayanth_flash_dec(.c1(c1), .c2(c2), .c3(c3), .b0(b0), .b1(b1));
 	
- \TLV
- //Add \TLV here if desired                                       
- \SV
- endmodule
+     \TLV
+     //Add \TLV here if desired                                       
+     \SV
+     endmodule
  ```
 
 ## D latch:
+
 <img src="![d_latch](https://user-images.githubusercontent.com/53760504/194711411-8df7b338-6761-4177-b3ac-f36607027b76.jpg)">
 
 ```
- \TLV_version 1d: tl-x.org
- \SV
- /* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/   /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off     SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /*    	 verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/   /* verilator lint_off         BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/     /* verilator lint_off WIDTHCONCAT*/  /* verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /*       verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator lint_off INITIALDLY*/    
-
- //Your Verilog/System Verilog Code Starts Here:
- module d_latch (  input d,             
+   \TLV_version 1d: tl-x.org
+   \SV
+ 
+    //Your Verilog/System Verilog Code Starts Here:
+    module d_latch (  input d,             
                   input en,           
                   input rstn,         
                   output reg q);      
-  always @ (en or rstn or d)  
+    always @ (en or rstn or d)  
       if (!rstn)  
          q <= 0;  
       else  
          if (en)  
             q <= d;  
- endmodule 
+    endmodule 
 
 
- //Top Module Code Starts here:
-	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+    //Top Module Code Starts here:
+ 	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
 		logic  d;//input
 		logic  en;//input
 		logic  rstn;//input
 		logic  q;//output
- //The $random() can be replaced if user wants to assign values
+     //The $random() can be replaced if user wants to assign values
 		initial begin 
-      d = 0;
-      #10 d = ~d;
-      end 
+       d = 0;
+       #10 d = ~d;
+       end 
 		assign en = $random();
 		assign rstn = $random();
 		d_latch d_latch(.d(d), .en(en), .rstn(rstn), .q(q));
 	
- \TLV
- //Add \TLV here if desired                                     
- \SV
- endmodule
+    \TLV
+    //Add \TLV here if desired                                     
+    \SV
+    endmodule
+   
 ```
+
 # Netlists:
 ## Comparator Netlist:
 
- ```
-  * c:\users\pawan\esim-workspace\compare_test\compare_test.cir
 
- .include avsdcmp_3v3_sky130.sub
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
- .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
- .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
- x1 net-_x1-pad1_ net-_x1-pad1_ vin vref vout gnd avsdcmp_3v3_sky130
- v1 vref gnd  dc 2
- v2  vin gnd sine(0 3.3 50 0 0)
- v3 net-_x1-pad1_ gnd  dc 3.3
- * u3  vout plot_v1
- * u2  vin plot_v1
- * u1  vref plot_v1
- * s c m o d e
- .tran 1e-03 40e-03 0e-00
+```
+    * c:\users\pawan\esim-workspace\compare_test\compare_test.cir
 
- * Control Statements 
- .control
- run
- print allv > plot_data_v.txt
- print alli > plot_data_i.txt
- plot v(vout)
- plot v(vin)
- plot v(vref)
- .endc
- .end
+   .include avsdcmp_3v3_sky130.sub
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+   .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+   .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+   x1 net-_x1-pad1_ net-_x1-pad1_ vin vref vout gnd avsdcmp_3v3_sky130
+   v1 vref gnd  dc 2
+   v2  vin gnd sine(0 3.3 50 0 0)
+   v3 net-_x1-pad1_ gnd  dc 3.3
+   * u3  vout plot_v1
+   * u2  vin plot_v1
+   * u1  vref plot_v1
+   * s c m o d e
+   .tran 1e-03 40e-03 0e-00
+
+   * Control Statements 
+   .control
+   run
+   print allv > plot_data_v.txt
+   print alli > plot_data_i.txt
+   plot v(vout)
+   plot v(vin)
+   plot v(vref)
+   .endc
+   .end
  
  ```
 ## Subtractor and Residue Amp Test Files:
 ```
- * c:\users\pawan\esim-workspace\sub_residue_amp\sub_residue_amp.cir
+   * c:\users\pawan\esim-workspace\sub_residue_amp\sub_residue_amp.cir
 
-.include avsd_opamp.sub
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
-.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
-x1 net-_x1-pad1_ net-_x1-pad2_ net-_sc1-pad2_ net-_sc2-pad2_ vout gnd avsd_opamp
-v2  vin gnd sine(0 3.3 100 0 0)
-v1 v2 gnd  dc 2.5
-v4 net-_x1-pad1_ gnd  dc 1.8
-v3 gnd net-_x1-pad2_  dc 1.8
-xsc1 v2 net-_sc1-pad2_ v2 sky130_fd_pr__res_generic_pd L=5.2 W=1.1
-xsc2 vin net-_sc2-pad2_ vin sky130_fd_pr__res_generic_pd L=5.2 W=1.1
-xsc3 net-_sc1-pad2_ vout net-_sc1-pad2_ sky130_fd_pr__res_generic_pd L=20.6 W=1.1
-* u3  vout plot_v1
-* u1  v2 plot_v1
-* u2  vin plot_v1
-* s c m o d e
-.tran 1e-03 10e-03 0e-00
+   .include avsd_opamp.sub
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+  .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+  x1 net-_x1-pad1_ net-_x1-pad2_ net-_sc1-pad2_ net-_sc2-pad2_ vout gnd avsd_opamp
+  v2  vin gnd sine(0 3.3 100 0 0)
+  v1 v2 gnd  dc 2.5
+  v4 net-_x1-pad1_ gnd  dc 1.8
+  v3 gnd net-_x1-pad2_  dc 1.8
+  xsc1 v2 net-_sc1-pad2_ v2 sky130_fd_pr__res_generic_pd L=5.2 W=1.1
+  xsc2 vin net-_sc2-pad2_ vin sky130_fd_pr__res_generic_pd L=5.2 W=1.1
+  xsc3 net-_sc1-pad2_ vout net-_sc1-pad2_ sky130_fd_pr__res_generic_pd L=20.6 W=1.1
+  * u3  vout plot_v1
+  * u1  v2 plot_v1
+  * u2  vin plot_v1
+  * s c m o d e
+  .tran 1e-03 10e-03 0e-00
 
-* Control Statements 
-.control
-run
-print allv > plot_data_v.txt
-print alli > plot_data_i.txt
-plot v(vout)
-plot v(v2)
-plot v(vin)
-.endc
-.end
+  * Control Statements 
+  .control
+  run
+  print allv > plot_data_v.txt
+  print alli > plot_data_i.txt
+  plot v(vout)
+  plot v(v2)
+  plot v(vin)
+  .endc
+  .end
+ 
 ```
 ## Two Bit Flash ADC Subcircuit:
 ```
-* c:\fossee\esim\library\subcircuitlibrary\flash_adc\flash_adc.cir
+    * c:\fossee\esim\library\subcircuitlibrary\flash_adc\flash_adc.cir
 
-.include avsdcmp_3v3_sky130.sub
-xsc1 net-_sc1-pad1_ net-_sc1-pad2_ net-_sc1-pad2_ sky130_fd_pr__res_generic_pd L=5.2 W=1
-xsc2 net-_sc2-pad1_ net-_sc1-pad1_ net-_sc1-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
-xsc3 net-_sc3-pad1_ net-_sc2-pad1_ net-_sc2-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
-xsc4 gnd net-_sc3-pad1_ net-_sc3-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
-* u3  net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ adc_bridge_3
-* u1  net-_u1-pad1_ net-_sc1-pad2_ net-_u1-pad3_ net-_u1-pad4_ port
-v1 net-_x1-pad1_ gnd  dc 3.3
-x1 net-_x1-pad1_ net-_x1-pad1_ net-_x1-pad1_ net-_sc1-pad1_ net-_u3-pad1_ gnd avsdcmp_3v3_sky130
-x2 net-_x1-pad1_ net-_x1-pad1_ net-_u1-pad1_ net-_sc2-pad1_ net-_u3-pad2_ gnd avsdcmp_3v3_sky130
-x3 net-_x1-pad1_ net-_x1-pad1_ net-_u1-pad1_ net-_sc3-pad1_ net-_u3-pad3_ gnd avsdcmp_3v3_sky130
-* u2  net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ jayanth_flash_dec
-* u4  net-_u2-pad4_ net-_u2-pad5_ net-_u1-pad4_ net-_u1-pad3_ dac_bridge_2
-a1 [net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ ] [net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ ] u3
-a2 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ ] [net-_u2-pad4_ ] [net-_u2-pad5_ ] u2
-a3 [net-_u2-pad4_ net-_u2-pad5_ ] [net-_u1-pad4_ net-_u1-pad3_ ] u4
-* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
-.model u3 adc_bridge(in_low=1.8 in_high=2.2 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
-* Schematic Name:                             jayanth_flash_dec, NgSpice Name: jayanth_flash_dec
-.model u2 jayanth_flash_dec(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
-* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
-.model u4 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
-.tran 0e-00 0e-00 0e-00
+    .include avsdcmp_3v3_sky130.sub
+    xsc1 net-_sc1-pad1_ net-_sc1-pad2_ net-_sc1-pad2_ sky130_fd_pr__res_generic_pd L=5.2 W=1
+    xsc2 net-_sc2-pad1_ net-_sc1-pad1_ net-_sc1-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
+    xsc3 net-_sc3-pad1_ net-_sc2-pad1_ net-_sc2-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
+    xsc4 gnd net-_sc3-pad1_ net-_sc3-pad1_ sky130_fd_pr__res_generic_pd L=5.2 W=1
+    * u3  net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ adc_bridge_3
+    * u1  net-_u1-pad1_ net-_sc1-pad2_ net-_u1-pad3_ net-_u1-pad4_ port
+    v1 net-_x1-pad1_ gnd  dc 3.3
+    x1 net-_x1-pad1_ net-_x1-pad1_ net-_x1-pad1_ net-_sc1-pad1_ net-_u3-pad1_ gnd avsdcmp_3v3_sky130
+    x2 net-_x1-pad1_ net-_x1-pad1_ net-_u1-pad1_ net-_sc2-pad1_ net-_u3-pad2_ gnd avsdcmp_3v3_sky130
+    x3 net-_x1-pad1_ net-_x1-pad1_ net-_u1-pad1_ net-_sc3-pad1_ net-_u3-pad3_ gnd avsdcmp_3v3_sky130
+    * u2  net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ jayanth_flash_dec
+    * u4  net-_u2-pad4_ net-_u2-pad5_ net-_u1-pad4_ net-_u1-pad3_ dac_bridge_2
+    a1 [net-_u3-pad1_ net-_u3-pad2_ net-_u3-pad3_ ] [net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ ] u3
+    a2 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ ] [net-_u2-pad4_ ] [net-_u2-pad5_ ] u2
+    a3 [net-_u2-pad4_ net-_u2-pad5_ ] [net-_u1-pad4_ net-_u1-pad3_ ] u4
+    * Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+    .model u3 adc_bridge(in_low=1.8 in_high=2.2 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+    * Schematic Name:                             jayanth_flash_dec, NgSpice Name: jayanth_flash_dec
+    .model u2 jayanth_flash_dec(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+      * Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+     .model u4 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+     .tran 0e-00 0e-00 0e-00
 
-* Control Statements 
-.control
-run
-print allv > plot_data_v.txt
-print alli > plot_data_i.txt
-.endc
-.end
+     * Control Statements 
+     .control
+     run
+     print allv > plot_data_v.txt
+     print alli > plot_data_i.txt
+     .endc
+     .end
+
 ```
+
 ## Test 2 Bit  Flash ADC:
 
+
 ```
-* c:\users\pawan\esim-workspace\test_flash\test_flash.cir
+   * c:\users\pawan\esim-workspace\test_flash\test_flash.cir
 
-.include Flash_adc.sub
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
-.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
-.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
-v2  vin gnd sine(0 3.3 500000 0 0)
-v1 vref gnd  dc 4
-* u2  vin plot_v1
-* u1  vref plot_v1
-* u4  b0 plot_v1
-* u5  b1 plot_v1
-x1 vin vref b0 b1 Flash_adc
-* s c m o d e
-.tran 1e-06 50e-06 0e-00
+  .include Flash_adc.sub
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+  .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+  .include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+  v2  vin gnd sine(0 3.3 500000 0 0)
+  v1 vref gnd  dc 4
+  * u2  vin plot_v1
+  * u1  vref plot_v1
+  * u4  b0 plot_v1
+  * u5  b1 plot_v1
+  x1 vin vref b0 b1 Flash_adc
+  * s c m o d e
+  .tran 1e-06 50e-06 0e-00
 
-* Control Statements 
-.control
-run
-print allv > plot_data_v.txt
-print alli > plot_data_i.txt
-plot v(vin)
-plot v(vref)
-plot v(b0)
-plot v(b1)
-.endc
-.end
+  * Control Statements 
+  .control
+  run
+  print allv > plot_data_v.txt
+  print alli > plot_data_i.txt
+  plot v(vin)
+  plot v(vref)
+  plot v(b0)
+  plot v(b1)
+  .endc
+  .end
 ```
 # Ngspice Plots:
 
