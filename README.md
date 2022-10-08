@@ -366,6 +366,9 @@ endmodule
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b1_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b2_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b3_two_step.png">
+ ## Two Step  Flash ADC Latched:
+ <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/d_latched_two_step_flash_adc.jpg">
+ 
 
 # Steps to run generate NgVeri Model
   1.Open eSim<br/>
