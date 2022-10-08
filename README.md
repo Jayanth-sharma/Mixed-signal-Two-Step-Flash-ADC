@@ -32,7 +32,16 @@ This circuit is a part of Mixed Signal SOC design.
 ### Truth Table
     
 ## Softwares Used
-   
+### eSim
+ - It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice    and KiCAD.<br/>
+   [Click here for more details refer:](https://esim.fossee.in/home)<br/>
+### NgSpice
+- It is an Open Source Software for Spice Simulations.<br/> 
+- [For more details refer:](http://ngspice.sourceforge.net/docs.html)<br/>
+### Makerchip
+- It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation.[Click Here to Refer](https://www.makerchip.com/)
+### Verilator
+- It is a tool which converts Verilog code to C++ objects.[Click here to Refer:](https://www.veripool.org/verilator/) 
 # Circuits on eSim
 ### Comparator Test:<br />
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/compara_output.png">
@@ -87,8 +96,8 @@ endmodule
 ##  2 bit Flash decoder:
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/makerchip.png">
       ```
-      \TLV_version 1d: tl-x.org
-      \SV
+         \TLV_version 1d: tl-x.org
+         \SV
     
 
       //Your Verilog/System Verilog Code Starts Here:
@@ -118,14 +127,14 @@ endmodule
       //Add \TLV here if desired                                       
       \SV
       endmodule
-     ```
+      ```
 
 ## D latch:
 
 <img src="![d_latch](https://user-images.githubusercontent.com/53760504/194711411-8df7b338-6761-4177-b3ac-f36607027b76.jpg)">
 
      ```
-     \TLV_version 1d: tl-x.org
+      \TLV_version 1d: tl-x.org
      \SV
  
      //Your Verilog/System Verilog Code Starts Here:
@@ -201,10 +210,7 @@ endmodule
     ```
 
 ## Subtractor and Residue Amp Test Files:
-    
-    
-    
-    ```
+ ```
     * c:\users\pawan\esim-workspace\sub_residue_amp\sub_residue_amp.cir
  
     .include avsd_opamp.sub
@@ -240,7 +246,7 @@ endmodule
    .endc
    .end
  
-   ```
+```
 ## Two Bit Flash ADC Subcircuit:
     
     ```
