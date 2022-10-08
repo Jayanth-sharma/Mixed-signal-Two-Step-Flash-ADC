@@ -7,8 +7,9 @@ This circuit is a part of Mixed Signal SOC design.
   6 or 8 bits resolution with the conversion rates of 10-40Ms/s.The disadvantages of flash ADC are the area and power requirements of the 2^N-1 comparators.
   So,To achive High resolutions with Lower power consumpution Two-step ADCs,pipelined ADCs are introduced to the Flash ADC archietecture.<br />
 ## Refrence Circuit:
-   <img src="">
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/Two_step_ADC_block_diagram.png">
 ## Reference Waveforms
+  
  
 ## Circuit Details
  Two step Flash Converter or the Parallel,Feed-Forward ADC.The basic diagram of a two-step Flash converter is seperated into two complete Flash ADCs with 
@@ -29,5 +30,6 @@ This circuit is a part of Mixed Signal SOC design.
 ## Softwares Used
    
 # Circuits on eSim
-   <img src="![opamp_test2](https://user-images.githubusercontent.com/53760504/194707972-74115ace-8c32-4da7-912d-2a3e3358b1a1.jpg)">
+  
+
 
