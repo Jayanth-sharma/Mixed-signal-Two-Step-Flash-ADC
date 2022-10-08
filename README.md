@@ -52,7 +52,7 @@ This circuit is a part of Mixed Signal SOC design.
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/vout_residue_amp_adc_vref_2.5.png">
 
-# 2 Bit Flash ADC Circuit:
+# 2 Bit Flash ADC Sub-Circuit:
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_esim.png">
 
@@ -67,6 +67,20 @@ module jayanth_flash_dec(input c1,c2,c3,output b0,b1);
  and(b0,p1,c1); 
  and(b1,c1,c2);
 endmodule
+
+```
+```
+module d_latch (  input d,             
+                  input en,           
+                  input rstn,         
+                  output reg q);      
+  always @ (en or rstn or d)  
+      if (!rstn)  
+         q <= 0;  
+      else  
+         if (en)  
+            q <= d;  
+endmodule 
 
 ```
 # Makerchip:
