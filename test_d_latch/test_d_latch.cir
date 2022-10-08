@@ -1,0 +1,20 @@
+* C:\Users\PawaN\eSim-Workspace\test_d_latch\test_d_latch.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/8/2022 12:56:40 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ d_latch		
+U5  Vin Ven rst Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ adc_bridge_3		
+v3  rst GND DC		
+v2  Ven GND pulse		
+v1  Vin GND pulse		
+U6  Net-_U2-Pad4_ q0 dac_bridge_1		
+U7  q0 plot_v1		
+U4  rst plot_v1		
+U3  Ven plot_v1		
+U1  Vin plot_v1		
+
+.end
