@@ -6,9 +6,10 @@ This circuit is a part of Mixed Signal SOC design.
   increased resolution.For example,an 8-bit Converter requires 255 comparators wheras a 9-bit ADC requires 511.Flash converters have traditionally been limited to
   6 or 8 bits resolution with the conversion rates of 10-40Ms/s.The disadvantages of flash ADC are the area and power requirements of the 2^N-1 comparators.
   So,To achive High resolutions with Lower power consumpution Two-step ADCs,pipelined ADCs are introduced to the Flash ADC archietecture.<br />
-## Reference Circuit
-<img src="![Two_step_ADC_block_diagram](https://user-images.githubusercontent.com/53760504/194707340-4ce4e81f-22e0-42d9-9914-91bdafb48c39.png)" title="Optional title">
+## Refrence Circuit:
+ <img src="![Two_step_ADC_block_diagram](https://user-images.githubusercontent.com/53760504/194707507-480ce312-54ac-4e8e-a720-7dfa0eb6ee77.jpg)">
 ## Reference Waveforms
+ <img src="(![Uploading Refrence_waveforms.jpeg…])">
 ## Circuit Details
  Two step Flash Converter or the Parallel,Feed-Forward ADC.The basic diagram of a two-step Flash converter is seperated into two complete Flash ADCs with 
  feed-Forward circuitry.The first Converter generates a rough Estimation of the value of the input,and the second converter performs a fine Concersion.The
@@ -24,5 +25,8 @@ This circuit is a part of Mixed Signal SOC design.
  
  4.The second ADC produced The least Significant bits through a flash Conversion.<br/>
 ### Truth Table
+
 ## Softwares Used
+
 # Circuits on eSim
+
