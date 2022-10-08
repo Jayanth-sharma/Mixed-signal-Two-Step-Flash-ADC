@@ -9,7 +9,7 @@ This circuit is a part of Mixed Signal SOC design.
 ## Refrence Circuit:
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/Two_step_ADC_block_diagram.png">
 ## Reference Waveforms
-  
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/Two_step_ADC_block_diagram.png">
  
 ## Circuit Details
  Two step Flash Converter or the Parallel,Feed-Forward ADC.The basic diagram of a two-step Flash converter is seperated into two complete Flash ADCs with 
@@ -26,10 +26,9 @@ This circuit is a part of Mixed Signal SOC design.
  
  4.The second ADC produced The least Significant bits through a flash Conversion.<br/>
 ### Truth Table
-
+    
 ## Softwares Used
    
 # Circuits on eSim
   
-
 
