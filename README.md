@@ -74,7 +74,7 @@ endmodule
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/makerchip.png">
 
 # Netlists:
-## Camparator Netlist:
+## Comparator Netlist:
 
  ```
  * c:\users\pawan\esim-workspace\compare_test\compare_test.cir
