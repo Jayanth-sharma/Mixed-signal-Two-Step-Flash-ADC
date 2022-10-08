@@ -11,7 +11,7 @@ This circuit is a part of Mixed Signal SOC design.
    -[Comparator](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#comparator-test)<br/>
    -[Subtrator & Residue Amplifier](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#subtractor-and-residue-amp)<br/>
    -[2 Bit Flash ADC Sub-Circuit](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#2-bit-flash-adc-sub-circuit)<br/>
-   -[D latch]()
+   -[D latch](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#2-bit-flash-adc-sub-circuit)<br/>
 - [Verilog file](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#verilog-files)<br/>
 - [Makerchip](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#makerchip-1)<br/>
 - [Netlists](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#netlists)<br/>
