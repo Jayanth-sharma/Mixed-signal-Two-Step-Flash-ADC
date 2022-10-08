@@ -235,8 +235,12 @@ plot v(b1)
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b1_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b2_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b3_two_step.png">
+
 # Steps to run generate NgVeri Model
+
 # Steps to run this project
+
 # Acknowlegdements
+
 # References
 
