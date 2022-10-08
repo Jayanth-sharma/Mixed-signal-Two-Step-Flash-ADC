@@ -47,8 +47,7 @@ This circuit is a part of Mixed Signal SOC design.
  
  4.The second ADC produced The least Significant bits through a flash Conversion.<br/>
 
-### Truth Table
- -  
+### Truth Table  
  - 2 bit Flash ADC:
     | input Voltage      |    C3C2C1     |   b1b0     |
     | -------------      | ------------- |------------|
