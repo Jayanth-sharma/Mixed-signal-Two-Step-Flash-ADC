@@ -162,7 +162,7 @@ endmodule
 
 ## D latch:
 
-<img src="![d_latch](https://user-images.githubusercontent.com/53760504/194711411-8df7b338-6761-4177-b3ac-f36607027b76.jpg)">
+ <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/d_latch.jpg">
 
      ```
       \TLV_version 1d: tl-x.org
