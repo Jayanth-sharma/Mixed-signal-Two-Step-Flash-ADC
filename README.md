@@ -84,9 +84,82 @@ endmodule
 
 ```
 # Makerchip:
-
+##  2 bit Flash decoder:
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/makerchip.png">
+```
+\TLV_version 1d: tl-x.org
+\SV
+/* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/  /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /* verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/  /* verilator lint_off LATCH*/  /* verilator lint_off BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/  /* verilator lint_off NULLPORT*/  /* verilator lint_off EOFNEWLINE*/  /* verilator lint_off WIDTHCONCAT*/  /* verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /* verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator lint_off INITIALDLY*/  /* verilator lint_off */  
 
+//Your Verilog/System Verilog Code Starts Here:
+module jayanth_flash_dec(input c1,c2,c3,output b0,b1
+    );
+ 
+ wire p1;
+ xnor(p1,c3,c2);
+ and(b0,p1,c1); 
+ and(b1,c1,c2);
+endmodule
+
+//Top Module Code Starts here:
+	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+		logic  c1;//input
+		logic  c2;//input
+		logic  c3;//input
+		logic  b0;//output
+		logic  b1;//output
+//The $random() can be replaced if user wants to assign values
+		assign c1 = $random();
+		assign c2 = $random();
+		assign c3 = $random();
+		jayanth_flash_dec jayanth_flash_dec(.c1(c1), .c2(c2), .c3(c3), .b0(b0), .b1(b1));
+	
+\TLV
+//Add \TLV here if desired                                     
+\SV
+endmodule
+```
+## D latch:
+<img src="![d_latch](https://user-images.githubusercontent.com/53760504/194711411-8df7b338-6761-4177-b3ac-f36607027b76.jpg)">
+```
+\TLV_version 1d: tl-x.org
+\SV
+/* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/  /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /* verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/   /* verilator lint_off BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/     /* verilator lint_off WIDTHCONCAT*/  /* verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /* verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator lint_off INITIALDLY*/    
+
+//Your Verilog/System Verilog Code Starts Here:
+module d_latch (  input d,             
+                  input en,           
+                  input rstn,         
+                  output reg q);      
+  always @ (en or rstn or d)  
+      if (!rstn)  
+         q <= 0;  
+      else  
+         if (en)  
+            q <= d;  
+endmodule 
+
+
+//Top Module Code Starts here:
+	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+		logic  d;//input
+		logic  en;//input
+		logic  rstn;//input
+		logic  q;//output
+//The $random() can be replaced if user wants to assign values
+		initial begin 
+      d = 0;
+      #10 d = ~d;
+      end 
+		assign en = $random();
+		assign rstn = $random();
+		d_latch d_latch(.d(d), .en(en), .rstn(rstn), .q(q));
+	
+\TLV
+//Add \TLV here if desired                                     
+\SV
+endmodule
+```
 # Netlists:
 ## Comparator Netlist:
 
@@ -251,10 +324,35 @@ plot v(b1)
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b3_two_step.png">
 
 # Steps to run generate NgVeri Model
+  1.Open eSim<br/>
+  2.Run NgVeri-Makerchip<br/>
+  3.Add top level verilog file in Makerchip Tab<br/>
+  4.Click on NgVeri tab<br/>
+  5.Add dependency files<br/>
+  6.Click on Run Verilog to NgSpice Converter<br/>
+  7.Debug if any errors<br/>
+  8.Model created successfully<br/>
 
 # Steps to run this project
-
+  1.Open a new terminal<br/>
+  2.Clone this project using the following command:<br/>
+   `git clone `<br/>
+  3.Change directory:<br/>
+    `cd eSim_project_files/two_step_adc`<br/>
+  4.Run ngspice:<br/>
+    `ngspice two_step_adc.cir.out`<br/>
+  5.To run the project in eSim:<br/>
+  - Run eSim<br/>
+  - Load the project<br/>
+  - Open eeSchema<br/>
 # Acknowlegdements
-
+  1.[FOSSEE](https://fossee.in/), [IIT Bombay](http://iitb.ac.in/)<br/>
+  2.[Google](https://www.google.co.in/)<br/>
+  3.[Spoken Tutorial](https://spoken-tutorial.org/)<br/>
+  4.Steve Hoover, Founder, Redwood EDA<br/>
+  5.Kunal Ghosh, Co-founder,[VSD Corp. Pvt. Ltd.](https://www.vlsisystemdesign.com/)<br/>
+  6.Sumanto Kar, eSim Team, FOSSEE<br/>
+  7.[Chips to Startup (C2S)](https://www.c2s.gov.in/)<br/>  
 # References
-
+1.CMOS: Circuit Design, Layout, and Simulation;Book by R. Jacob Baker<br/>
+2.https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git
