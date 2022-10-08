@@ -1,22 +1,22 @@
 # Mixed-signal-Two-Step-Flash-ADC
 This circuit is a part of Mixed Signal SOC design.
 # **INDEX**
-- [Abstract]()<br/>
-- [Reference Circuit]()<br/>
-- [Reference Waveform]()<br/>
-- [Circuit Details]()<br/>
-- [Truth Tables]()<br/>
-- [Softwares Used]()<br/>
-- [Circuits on eSim]()<br/>
-   -[Comparator]()<br/>
-- [Verilog file]()<br/>
-- [Makerchip]()<br/>
-- [Netlists]()<br/>
-- [Ngspice Plots]()<br/>
-- [Steps to run generate NgVeri Model]()<br/>
-- [Steps to run this project]()<br/>
-- [Acknowlegdements]()<br/>
-- [References]()<br/>
+- [Abstract](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#abstract)<br/>
+- [Reference Circuit](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#reference-circuit)<br/>
+- [Reference Waveform](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#reference-waveforms)<br/>
+- [Circuit Details](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#circuit-details)<br/>
+- [Truth Tables](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#truth-table)<br/>
+- [Softwares Used](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#softwares-used)<br/>
+- [Circuits on eSim](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#circuits-on-esim)<br/>
+   -[Comparator](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#comparator-test)<br/>
+- [Verilog file](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#verilog-files)<br/>
+- [Makerchip](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#makerchip-1)<br/>
+- [Netlists](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#netlists)<br/>
+- [Ngspice Plots](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#ngspice-plots)<br/>
+- [Steps to run generate NgVeri Model](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#steps-to-run-generate-ngveri-model)<br/>
+- [Steps to run this project](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#steps-to-run-this-project)<br/>
+- [Acknowlegdements](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#acknowlegdements)<br/>
+- [References](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#references)<br/>
 
 ## Abstract<br />
   Flash or parallel converter have the Highest Speed of any Type of ADC.As they use one comaparator per quantization level(2^N-1) and 2^N resistors.The obvious 
