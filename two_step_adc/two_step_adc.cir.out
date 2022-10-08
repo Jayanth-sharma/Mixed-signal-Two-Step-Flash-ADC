@@ -1,0 +1,51 @@
+* c:\users\pawan\esim-workspace\two_step_adc\two_step_adc.cir
+
+.include avsddac_3v3_sky130_v2.sub
+.include Flash_adc.sub
+.include avsd_opamp.sub
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__inductors.model.spice"
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__pnp.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__r+c.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130_fd_pr__model__linear.model.spice"
+xsc1 vin net-_sc1-pad2_ net-_sc1-pad3_ net-_sc1-pad4_ sky130_fd_pr__nfet_01v8_lvt 
+v2 net-_x3-pad2_ gnd  dc 4
+v1  net-_sc1-pad2_ gnd pulse(0 1.8 0 0 0 2u 4u)
+v4 net-_x1-pad3_ gnd  dc 0.2
+v3 net-_x1-pad2_ gnd  dc 3.3
+v5 net-_x1-pad1_ gnd  dc 1.8
+v7 net-_x5-pad2_ gnd  dc 1.8
+* s c m o d e
+x3 net-_sc1-pad3_ net-_x3-pad2_ b3 b2 Flash_adc
+x5 net-_sc4-pad2_ net-_x5-pad2_ b1 b0 Flash_adc
+x2 net-_x2-pad1_ net-_x2-pad2_ net-_sc2-pad2_ net-_sc3-pad1_ net-_sc4-pad2_ gnd avsd_opamp
+xsc2 net-_sc1-pad3_ net-_sc2-pad2_ net-_sc1-pad3_ sky130_fd_pr__res_generic_pd L=5.2 W=1.1
+xsc3 net-_sc3-pad1_ net-_sc3-pad2_ net-_sc3-pad2_ sky130_fd_pr__res_generic_pd L=5.2 W=1.1
+xsc4 net-_sc2-pad2_ net-_sc4-pad2_ net-_sc2-pad2_ sky130_fd_pr__res_generic_pd L=20.6 W=1.1
+v6 gnd net-_x2-pad2_  dc 1.8
+v8 net-_x2-pad1_ gnd  dc 4
+* u1  vin plot_v1
+* u2  b3 plot_v1
+v9  vin gnd sine(0 3.3 500000 0 0)
+x1 net-_x1-pad1_ net-_x1-pad2_ net-_x1-pad3_ b3 b2 gnd gnd gnd gnd gnd gnd gnd gnd net-_sc3-pad2_ gnd avsddac_3v3_sky130_v2
+v10 net-_sc1-pad4_ gnd  dc 0.5
+xsc5 net-_sc1-pad3_ gnd sky130_fd_pr__cap_mim_m3_2 L=2 W=1.1
+* u3  b2 plot_v1
+* u5  b0 plot_v1
+* u4  b1 plot_v1
+.tran 1e-06 20e-06 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(vin)
+plot v(b3)
+plot v(b2)
+plot v(b0)
+plot v(b1)
+.endc
+.end

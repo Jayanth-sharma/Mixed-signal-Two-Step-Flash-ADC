@@ -1,0 +1,35 @@
+* C:\Users\PawaN\eSim-Workspace\two_step_adc\two_step_adc.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/8/2022 1:20:49 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+SC1  Vin Net-_SC1-Pad2_ Net-_SC1-Pad3_ Net-_SC1-Pad4_ sky130_fd_pr__nfet_01v8_lvt		
+v2  Net-_X3-Pad2_ GND DC		
+v1  Net-_SC1-Pad2_ GND pulse		
+v4  Net-_X1-Pad3_ GND DC		
+v3  Net-_X1-Pad2_ GND DC		
+v5  Net-_X1-Pad1_ GND DC		
+v7  Net-_X5-Pad2_ GND DC		
+scmode1  SKY130mode		
+X3  Net-_SC1-Pad3_ Net-_X3-Pad2_ b3 b2 flash_2		
+X5  Net-_SC4-Pad2_ Net-_X5-Pad2_ b1 b0 flash_2		
+X2  Net-_X2-Pad1_ Net-_X2-Pad2_ Net-_SC2-Pad2_ Net-_SC3-Pad1_ Net-_SC4-Pad2_ GND avsd_opamp		
+SC2  Net-_SC1-Pad3_ Net-_SC2-Pad2_ Net-_SC1-Pad3_ sky130_fd_pr__res_generic_pd		
+SC3  Net-_SC3-Pad1_ Net-_SC3-Pad2_ Net-_SC3-Pad2_ sky130_fd_pr__res_generic_pd		
+SC4  Net-_SC2-Pad2_ Net-_SC4-Pad2_ Net-_SC2-Pad2_ sky130_fd_pr__res_generic_pd		
+v6  GND Net-_X2-Pad2_ DC		
+v8  Net-_X2-Pad1_ GND DC		
+U1  Vin plot_v1		
+U2  b3 plot_v1		
+v9  Vin GND sine		
+X1  Net-_X1-Pad1_ Net-_X1-Pad2_ Net-_X1-Pad3_ b3 b2 GND GND GND GND GND GND GND GND Net-_SC3-Pad2_ GND avsddac_3v3_sky130_v2		
+v10  Net-_SC1-Pad4_ GND DC		
+SC5  Net-_SC1-Pad3_ GND sky130_fd_pr__cap_mim_m3_2		
+U3  b2 plot_v1		
+U5  b0 plot_v1		
+U4  b1 plot_v1		
+
+.end

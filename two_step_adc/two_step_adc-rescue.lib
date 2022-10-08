@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 2bit_dac-RESCUE-two_step_adc
+#
+DEF 2bit_dac-RESCUE-two_step_adc X 0 40 Y Y 1 F N
+F0 "X" 0 0 60 H V C CNN
+F1 "2bit_dac-RESCUE-two_step_adc" 200 150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -200 100 200 -150 0 1 0 N
+X Vrefh 1 -400 50 200 R 50 50 1 1 I
+X Verfl 2 -400 -50 200 R 50 50 1 1 I
+X d0 3 -100 -350 200 U 50 50 1 1 I
+X vdd 4 0 300 200 D 50 50 1 1 I
+X d1 5 150 -350 200 U 50 50 1 1 I
+X Vout 6 400 -100 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
