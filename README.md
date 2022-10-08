@@ -9,9 +9,8 @@ This circuit is a part of Mixed Signal SOC design.
 ## Refrence Circuit:
  <img src="![Two_step_ADC_block_diagram](https://user-images.githubusercontent.com/53760504/194707507-480ce312-54ac-4e8e-a720-7dfa0eb6ee77.jpg)">
 ## Reference Waveforms
- <img src="![opamp_test2](https://user-images.githubusercontent.com/53760504/194707891-3be26ad2-8c02-4809-ac4e-474e3b354e8d.jpg)">
+ <img src="![Refrence_waveforms](https://user-images.githubusercontent.com/53760504/194707934-2a18d2db-0837-4ed4-99d4-ba72564c5144.jpeg)">
 ## Circuit Details
-
  Two step Flash Converter or the Parallel,Feed-Forward ADC.The basic diagram of a two-step Flash converter is seperated into two complete Flash ADCs with 
  feed-Forward circuitry.The first Converter generates a rough Estimation of the value of the input,and the second converter performs a fine Concersion.The
  of this advantages of this Converter is greatly reduced from that of the Flash Comparator.-From 2^N-1 to 2(2^(N/2)-1) comparators.For Example,As per our circuit
@@ -28,6 +27,7 @@ This circuit is a part of Mixed Signal SOC design.
 ### Truth Table
 
 ## Softwares Used
-
+   
 # Circuits on eSim
+   <img src="![opamp_test2](https://user-images.githubusercontent.com/53760504/194707972-74115ace-8c32-4da7-912d-2a3e3358b1a1.jpg)">
 
