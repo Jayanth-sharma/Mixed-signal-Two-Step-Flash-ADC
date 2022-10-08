@@ -56,12 +56,6 @@ This circuit is a part of Mixed Signal SOC design.
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_esim.png">
 
-## 2 Bit Flash ADC Circuit Results:
-
-<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_vin.png">
-<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_vref.png">
-<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/b0_flash_ADC.png">
-<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/b1_flash_adc.png">
 
 # Verilog Files:
 
@@ -152,7 +146,7 @@ plot v(vin)
 .endc
 .end
 ```
-## Two Step Flash ADC Subcircuit:
+## Two Bit Flash ADC Subcircuit:
 ```
 * c:\fossee\esim\library\subcircuitlibrary\flash_adc\flash_adc.cir
 
@@ -224,6 +218,25 @@ plot v(b1)
 .end
 ```
 # Ngspice Plots:
+
+## 2 Bit Flash ADC Circuit Results:
+
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_vin.png">
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_vref.png">
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/b0_flash_ADC.png">
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/b1_flash_adc.png">
+
 ## Two Step Flash ADC:
-   
-   
+## Circuit Diagram:
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/two_step_flash_adc.png">
+## Simulation Results:
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/two_step_vin1.png">
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b0_two_step_ADC.png">
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b1_two_step.png">
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b2_two_step.png">
+   <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b3_two_step.png">
+# Steps to run generate NgVeri Model
+# Steps to run this project
+# Acknowlegdements
+# References
+
