@@ -1,0 +1,3172 @@
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=0
+b0=1
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=0
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=0
+c2=1
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=1
+c3=1
+b0=1
+b1=1
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+
+Inside foo after eval.....
+c1=1
+c2=0
+c3=1
+b0=0
+b1=0
+=============jayanth_flash_dec : New Iteration===========
+Instance : 0
+
+Inside foo b
