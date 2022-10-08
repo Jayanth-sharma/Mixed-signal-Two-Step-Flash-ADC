@@ -9,6 +9,9 @@ This circuit is a part of Mixed Signal SOC design.
 - [Softwares Used](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#softwares-used)<br/>
 - [Circuits on eSim](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#circuits-on-esim)<br/>
    -[Comparator](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#comparator-test)<br/>
+   -[Subtrator & Residue Amplifier](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#subtractor-and-residue-amp)<br/>
+   -[2 Bit Flash ADC Sub-Circuit](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#2-bit-flash-adc-sub-circuit)<br/>
+   -[D latch]()
 - [Verilog file](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#verilog-files)<br/>
 - [Makerchip](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#makerchip-1)<br/>
 - [Netlists](https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC#netlists)<br/>
@@ -88,7 +91,9 @@ This circuit is a part of Mixed Signal SOC design.
 ### 2 Bit Flash ADC Sub-Circuit:
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_esim.png">
+
 ### D latch
+
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/test_d_latch/d_latch_cir.jpg">
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/d_latch_simulations/vin_vs_q0.png">
 
@@ -366,7 +371,9 @@ endmodule
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b1_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b2_two_step.png">
    <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/Simulation_results3/b3_two_step.png">
- ## Two Step  Flash ADC Latched:
+ 
+ ##  Two Step  Flash ADC Latched:
+ 
  <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/d_latched_two_step_flash_adc.jpg">
  
 
