@@ -85,10 +85,12 @@ This circuit is a part of Mixed Signal SOC design.
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/vout_residue_amp_adc_vref_2.5.png">
 
-# 2 Bit Flash ADC Sub-Circuit:
+### 2 Bit Flash ADC Sub-Circuit:
 
 <img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/flash_2bit_adc_esim.png">
-
+### D latch
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/test_d_latch/d_latch_cir.jpg">
+<img src="https://github.com/Jayanth-sharma/Mixed-signal-Two-Step-Flash-ADC/blob/main/Two%20step%20Flash%20ADC/d_latch_simulations/vin_vs_q0.png">
 
 # Verilog Files:
 
